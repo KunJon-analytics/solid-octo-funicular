@@ -1,5 +1,6 @@
 import { About } from "@/components/home/about";
 import Hero from "@/components/home/hero";
+import Steps from "@/components/home/steps";
 import Timeline from "@/components/home/timeline";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <About />
       <Timeline />
+      <Steps />
     </>
   );
 }
