@@ -69,7 +69,7 @@ export const About = () => {
 
                 <Link
                   href="/#"
-                  className="inline-flex items-center justify-center px-10 py-4 font-normal text-center rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"
+                  className="inline-flex items-center justify-center px-10 py-4 text-white font-normal text-center rounded-lg bg-secondary hover:bg-opacity-90 lg:px-8 xl:px-10"
                 >
                   Buy Now
                 </Link>

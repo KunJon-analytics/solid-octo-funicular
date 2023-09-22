@@ -2,13 +2,12 @@ import "./globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 
 import type { Metadata } from "next";
-import { Inter, Comic_Neue } from "next/font/google";
+import { Comic_Neue } from "next/font/google";
 
 import Navbar from "@/components/common/navbar";
 import Footer from "@/components/common/footer";
 import { Providers } from "./providers";
 
-const inter = Inter({ subsets: ["latin"] });
 const comic = Comic_Neue({ subsets: ["latin"], weight: ["300", "400", "700"] });
 
 export const metadata: Metadata = {
