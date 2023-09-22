@@ -6,7 +6,7 @@ import timelineImage from "@/assets/images/timeline.png";
 const Timeline = () => {
   return (
     <section>
-      <div className="bg-base-200 text-primary py-8">
+      <div className="text-primary py-8">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
             <p className="ml-2 text-secondary uppercase tracking-loose">
@@ -15,7 +15,7 @@ const Timeline = () => {
             <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">
               BBR&apos;s Cosmic Journey
             </p>
-            <p className="text-sm md:text-base text-accent mb-4">
+            <p className="text-sm md:text-base text-base-content mb-4">
               Buckle Up for a Galactic Adventure Packed with Cute Beginnings and
               Limitless Possibilities!
             </p>
@@ -50,7 +50,7 @@ const Timeline = () => {
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Launch & Baby Steps 🍼
                     </h4>
-                    <p className="text-sm md:text-base leading-snug text-accent text-opacity-100">
+                    <p className="text-sm md:text-base leading-snug text-base-content text-opacity-100">
                       Baby steps! Fair launch, community building, cute mascot.
                       Nurture BabyBlackRock and join the fun.
                     </p>
@@ -63,7 +63,7 @@ const Timeline = () => {
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Toddler Triumphs 🚀
                     </h4>
-                    <p className="text-sm md:text-base leading-snug text-accent text-opacity-100">
+                    <p className="text-sm md:text-base leading-snug text-base-content text-opacity-100">
                       Growing up! Exchanges, partnerships, creative campaigns.
                       BBR&apos;s presence expands with exciting developments.
                     </p>
@@ -76,7 +76,7 @@ const Timeline = () => {
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Crypto Superstar 🌟
                     </h4>
-                    <p className="text-sm md:text-base leading-snug text-accent text-opacity-100">
+                    <p className="text-sm md:text-base leading-snug text-base-content text-opacity-100">
                       Crypto icon! DeFi, NFTs, partnerships. BBR reaches new
                       heights with a bright roadmap ahead.
                     </p>

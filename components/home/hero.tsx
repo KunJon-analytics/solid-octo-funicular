@@ -47,7 +47,7 @@ const Hero = () => {
             Join the
             <span className="text-primary"> BBR Community</span>
           </h1>
-          <h2 className="mt-6 text-lg leading-8 text-neutral">
+          <h2 className="mt-6 text-lg leading-8">
             Because We Believe in Making Crypto as Adorable as a Baby Rock
             Riding a Rocket! 🗿🚀
           </h2>

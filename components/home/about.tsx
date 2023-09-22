@@ -50,10 +50,10 @@ export const About = () => {
                 <span className="block mb-2 text-lg font-semibold text-primary">
                   Introducing BabyBlackRock (BBR)
                 </span>
-                <h2 className="mb-8 text-3xl font-bold text-dark sm:text-4xl">
+                <h2 className="mb-8 text-3xl font-bold sm:text-4xl">
                   The Future of Crypto Beginnings! 🚀
                 </h2>
-                <p className="mb-8 text-base text-body-color">
+                <p className="mb-8">
                   In the crypto cosmos, BabyBlackRock (BBR) shines as a symbol
                   of boundless potential. Born amid whispers of BlackRock&apos;s
                   quest for a Bitcoin ETF, BBR, with its adorable pacifier-clad
@@ -69,7 +69,7 @@ export const About = () => {
 
                 <Link
                   href="/#"
-                  className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center text-white rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"
+                  className="inline-flex items-center justify-center px-10 py-4 font-normal text-center rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"
                 >
                   Buy Now
                 </Link>
