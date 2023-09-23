@@ -53,17 +53,22 @@ export const About = () => {
                 <h2 className="mb-8 text-3xl font-bold sm:text-4xl">
                   The Future of Crypto Beginnings! 🚀
                 </h2>
-                <p className="mb-8">
+                <p className="mb-5">
                   In the crypto cosmos, BabyBlackRock (BBR) shines as a symbol
                   of boundless potential. Born amid whispers of BlackRock&apos;s
                   quest for a Bitcoin ETF, BBR, with its adorable pacifier-clad
                   bull logo, embodies the idea that grand dreams start small.
+                </p>
+                <p className="mb-5">
                   BBR holders share a vision of two BlackRocks—one in finance,
                   one in crypto. Fueled by humor and optimism, our community
                   crafts memes and chants like &quot;BBR - Born Bullish and
-                  Ready!&quot; Join us on this enchanting adventure, where even
-                  the tiniest tokens dream big. Hold your BBR close, and
-                  together, let&apos;s nurture the baby steps shaping the crypto
+                  Ready!&quot;
+                </p>
+                <p className="mb-8">
+                  Join us on this enchanting adventure, where even the tiniest
+                  tokens dream big. Hold your BBR close, and together,
+                  let&apos;s nurture the baby steps shaping the crypto
                   universe&apos;s future! 🌟🍼🌌
                 </p>
 
