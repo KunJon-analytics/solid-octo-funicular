@@ -10,7 +10,10 @@ import rock4 from "@/assets/images/rock4.png";
 export const About = () => {
   return (
     <>
-      <section className="pt-20 px-10 lg:pt-1 pb-12 lg:pb-5 overflow-hidden">
+      <section
+        className="pt-20 px-10 lg:pt-1 pb-12 lg:pb-5 overflow-hidden"
+        id="about"
+      >
         <div className="container">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">

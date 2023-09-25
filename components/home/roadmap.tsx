@@ -3,9 +3,9 @@ import React from "react";
 
 import timelineImage from "@/assets/images/timeline.png";
 
-const Timeline = () => {
+const Roadmap = () => {
   return (
-    <section>
+    <section id="roadmap">
       <div className="text-primary py-8">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
@@ -96,4 +96,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default Roadmap;
