@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import logo from "@/assets/images/logo.png";
 
 const Navbar = () => {
   return (
@@ -48,9 +51,14 @@ const Navbar = () => {
         </div>
         <Link
           href={"/"}
-          className="btn btn-ghost normal-case text-primary text-sm lg:text-lg"
+          className="btn btn-ghost normal-case text-sm lg:text-lg"
         >
-          BabyBlackRock
+          <Image
+            src={logo}
+            alt="BabyBlackRock Logo"
+            className="h-20 w-24 lg:hidden"
+          />
+          <span className="hidden lg:flex">BabyBlackRock</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

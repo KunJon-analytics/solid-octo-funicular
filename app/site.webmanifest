@@ -1,0 +1,20 @@
+{
+  "name": "BabyBlackRock (BBR) - Crypto's Cutest Token with Big Dreams 🍼🚀",
+  "short_name": "BabyBlackRock (BBR)",
+  "description": "Discover BabyBlackRock (BBR), the adorable meme coin symbolizing limitless crypto potential. Join our vibrant community and embark on a journey from small beginnings to the stars of the crypto galaxy! 🌟🌌",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}
