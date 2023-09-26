@@ -56,7 +56,7 @@ const Navbar = () => {
           <Image
             src={logo}
             alt="BabyBlackRock Logo"
-            className="h-20 w-24 lg:hidden"
+            className="h-20 w-24 lg:hidden mt-[-10px]"
           />
           <span className="hidden lg:flex">BabyBlackRock</span>
         </Link>
