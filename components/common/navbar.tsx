@@ -40,7 +40,9 @@ const Navbar = () => {
                   <Link href={"/"}>Telegram</Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Twitter</Link>
+                  <Link href={"https://twitter.com/black94263"} target="_blank">
+                    Twitter
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -71,7 +73,9 @@ const Navbar = () => {
               <summary>Community</summary>
               <ul className="p-2">
                 <li>
-                  <Link href={"/"}>Twitter</Link>
+                  <Link href={"https://twitter.com/black94263"} target="_blank">
+                    Twitter
+                  </Link>
                 </li>
                 <li>
                   <Link href={"/"}>Telegram</Link>

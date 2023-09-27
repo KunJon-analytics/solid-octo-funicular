@@ -13,7 +13,7 @@ const Footer = () => {
         <p>Copyright © 2023 - All right reserved</p>
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <Link href="/">
+        <Link href="https://twitter.com/black94263" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
