@@ -31,7 +31,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link href={"/#about"}>About</Link>
+              <Link href={"/"}>About</Link>
             </li>
             <li>
               Community
@@ -66,7 +66,9 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu z-20 menu-horizontal px-1">
           <li>
-            <Link href={"/#about"}>About</Link>
+            <div className="tooltip tooltip-bottom" data-tip="Coming Soon">
+              <Link href={"/"}>About</Link>
+            </div>
           </li>
           <li tabIndex={0}>
             <details>
@@ -78,13 +80,20 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Telegram</Link>
+                  <div
+                    className="tooltip tooltip-bottom"
+                    data-tip="Coming Soon"
+                  >
+                    <Link href={"/"}>Telegram</Link>
+                  </div>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <Link href={"/#roadmap"}>Roadmap</Link>
+            <div className="tooltip tooltip-bottom" data-tip="Coming Soon">
+              <Link href={"/"}>Roadmap</Link>
+            </div>
           </li>
         </ul>
       </div>

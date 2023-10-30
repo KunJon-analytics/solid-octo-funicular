@@ -24,13 +24,13 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 const projectId = "0933d1cdb15d3db4aadbacb031ad2879";
 
 const { wallets } = getDefaultWallets({
-  appName: "Turung",
+  appName: "BabyBlackRock",
   projectId,
   chains,
 });
 
 const demoAppInfo = {
-  appName: "Turung",
+  appName: "BabyBlackRock",
 };
 
 const connectors = connectorsForWallets([
@@ -62,7 +62,7 @@ export function Providers({ children }: React.PropsWithChildren) {
         appInfo={demoAppInfo}
         modalSize="compact"
         theme={darkTheme({
-          ...darkTheme.accentColors.blue,
+          ...darkTheme.accentColors.purple,
         })}
         initialChain={bsc}
       >
