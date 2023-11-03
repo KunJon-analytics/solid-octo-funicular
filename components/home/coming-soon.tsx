@@ -8,7 +8,7 @@ const ComingSoon = () => {
       <div className="flex md:mx-4 mx-2">
         <div
           style={{
-            backgroundImage: `url('/images/avatar.png')`,
+            backgroundImage: `url('/images/bunch2.png')`,
           }}
           className="relative pt-40 pb-52 w-full rounded-2xl shadow-md overflow-hidden bg-no-repeat bg-center bg-cover"
         >

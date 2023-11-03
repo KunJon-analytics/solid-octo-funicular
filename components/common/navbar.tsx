@@ -55,12 +55,7 @@ const Navbar = () => {
           href={"/"}
           className="btn btn-ghost normal-case text-sm lg:text-lg"
         >
-          <Image
-            src={logo}
-            alt="BabyBlackRock Logo"
-            className="h-20 w-24 lg:hidden mt-[-10px]"
-          />
-          <span className="hidden lg:flex">BabyBlackRock</span>
+          <span>BabyBlackRock</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
